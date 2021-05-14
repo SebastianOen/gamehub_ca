@@ -1,43 +1,16 @@
 @font-face {
-  font-family: "Lovelo Black";
-  src: url("@{lovelo-font-path}/lovelo_black-webfont.eot");
-  src: url("@{lovelo-font-path}/lovelo_black-webfont.eot?#iefix")
+  font-family: "Lovelo";
+  src: url("//db.onlinewebfonts.com/t/980a524883ee7f294ec3ab75100e2abf.eot");
+  src: url("//db.onlinewebfonts.com/t/980a524883ee7f294ec3ab75100e2abf.eot?#iefix")
       format("embedded-opentype"),
-    url("@{lovelo-font-path}/lovelo_black-webfont.woff2") format("woff2"),
-    url("@{lovelo-font-path}/lovelo_black-webfont.woff") format("woff"),
-    url("@{lovelo-font-path}/lovelo_black-webfont.ttf") format("truetype"),
-    url("@{lovelo-font-path}/lovelo_black-webfont.svg#loveloblack")
+    url("//db.onlinewebfonts.com/t/980a524883ee7f294ec3ab75100e2abf.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/980a524883ee7f294ec3ab75100e2abf.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/980a524883ee7f294ec3ab75100e2abf.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/980a524883ee7f294ec3ab75100e2abf.svg#Lovelo")
       format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Lovelo Line";
-  src: url("@{lovelo-font-path}/lovelo_line_bold-webfont.eot");
-  src: url("@{lovelo-font-path}/lovelo_line_bold-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("@{lovelo-font-path}/lovelo_line_bold-webfont.woff2") format("woff2"),
-    url("@{lovelo-font-path}/lovelo_line_bold-webfont.woff") format("woff"),
-    url("@{lovelo-font-path}/lovelo_line_bold-webfont.ttf") format("truetype"),
-    url("@{lovelo-font-path}/lovelo_line_bold-webfont.svg#loveloline_bold")
-      format("svg");
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Lovelo Line";
-  src: url("@{lovelo-font-path}/lovelo_line_light-webfont.eot");
-  src: url("@{lovelo-font-path}/lovelo_line_light-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("@{lovelo-font-path}/lovelo_line_light-webfont.woff2") format("woff2"),
-    url("@{lovelo-font-path}/lovelo_line_light-webfont.woff") format("woff"),
-    url("@{lovelo-font-path}/lovelo_line_light-webfont.ttf") format("truetype"),
-    url("@{lovelo-font-path}/lovelo_line_light-webfont.svg#loveloline_light")
-      format("svg");
-  font-weight: 300;
-  font-style: normal;
 }
 header {
   background-color: #262626;
@@ -67,7 +40,7 @@ header a {
   right: -300px;
 }
 .top-menu {
-  font-family: lovelo line, Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Lovelo", Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   font-size: 35px;
 }
@@ -82,7 +55,7 @@ nav a {
   text-decoration: none;
 }
 .game-page {
-  font-family: lovelo line, Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Lovelo", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 35px;
   text-align: center;
 }
@@ -110,7 +83,7 @@ nav a {
 .game-genre {
   position: relative;
   top: -1250px;
-  font-family: lovelo line, Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Lovelo", Verdana, Geneva, Tahoma, sans-serif;
   font-size: 35px;
   font-weight: bold;
 }
