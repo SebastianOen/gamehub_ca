@@ -22,6 +22,10 @@ header {
 header li {
   color: #262626;
 }
+header a:hover,
+.game-genre a:hover {
+  color: #ff9649;
+}
 header img {
   height: 150px;
   position: relative;
@@ -103,4 +107,15 @@ li {
   left: 320px;
   margin-left: -3px;
   top: -1800px;
+}
+.upcoming {
+  display: flex;
+  margin-top: 60px;
+  gap: 60px;
+}
+h2 {
+  font-family: "lovelo";
+}
+.upcoming img {
+  height: 180px;
 }
