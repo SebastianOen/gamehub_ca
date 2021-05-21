@@ -119,3 +119,19 @@ h2 {
 .upcoming img {
   height: 180px;
 }
+.register_background {
+  height: 231px;
+  width: 850px;
+  position: relative;
+  left: 350px;
+  top: 50px;
+}
+.cta_register a {
+  color: #fff;
+  text-decoration: none;
+  font-family: lovelo;
+  font-size: 40px;
+  position: relative;
+  top: -30px;
+  left: 600px;
+}
