@@ -77,8 +77,13 @@
   .game-news h2 {
     position: absolute;
     top: 680px;
-    left: 70px;
+    left: 40px;
+    color: #262626;
     text-transform: uppercase;
+    width: 250px;
+    height: 40px;
+    text-align: center;
+    text-decoration: underline #ff9649;
   }
   .game-news__story {
     display: none;
