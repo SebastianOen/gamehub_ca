@@ -76,6 +76,10 @@
     text-transform: uppercase;
   }
 
+  .flex-container__releases a {
+    color: #262626;
+  }
+
   .product h3 {
     display: none;
   }
