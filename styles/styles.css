@@ -270,16 +270,30 @@
 
   /* Home page */
 
+  @media screen and (max-width: 1450px) {
+    .game-news__story {
+      opacity: 0;
+      transition: opacity 0.3s 0.1s ease-in-out;
+    }
+  }
+
+  @media screen and (max-width: 1100px) {
+    .game-news__title {
+      opacity: 0;
+      transition: opacity 0.3s 0.1s ease-in-out;
+    }
+  }
+
   .header-img {
-    position: relative;
+    position: absolute;
     top: 150px;
     text-align: center;
     text-transform: uppercase;
   }
 
   .header-img__img {
-    height: 400px;
-    width: 700px;
+    max-height: 400px;
+    max-width: 700px;
   }
 
   .flex-container__releases {
