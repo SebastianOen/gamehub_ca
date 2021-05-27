@@ -45,57 +45,6 @@
     clip-path: circle(100% at center);
   }
 
-  #add-to-cart,
-  .cart {
-    opacity: 0;;
-  }
-
-
-  .cart__img {
-    height: 30px;
-    position: absolute;
-    top: 70px;
-    left: 320px;
-  }
-
-  .cart {
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 10rem 0;
-    width: 100vw;
-    height: 100vh;
-    font-size: 2rem;
-    background: #262626;
-    color: #fff;
-    transition: opacity 0.8s 0.5s, clip-path 1s 0.5s;
-    clip-path: circle(200px at top right);
-  }
-  }
-
-  .cart p {
-    position: relative;
-    top: 200px;
-  }
-
-  .cart a {
-    position: relative;
-    top: 500px;
-  }
-
-  .cart a:hover {
-    color: #ff9649;
-  }
-
-  #add-to-cart:checked ~ .cart {
-    opacity: 1;
-    clip-path: circle(100% at center);
-  }
-
   footer {
     color: #fff;
     text-align: center;
