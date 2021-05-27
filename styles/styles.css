@@ -10,7 +10,7 @@
   }
   .header-img__img {
     height: 220px;
-    width: 380px;
+    width: 350px;
     margin-top: 20px;
   }
 
@@ -69,7 +69,7 @@
   }
 
   .product img {
-    height: 100px;
+    height: 90px;
     position: relative;
     left: 5px;
   }
