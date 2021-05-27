@@ -76,7 +76,7 @@
   }
 
   #add-to-cart:checked ~ .cart {
-    display: block;
+    opacity: 1;
   }
 
   /* Homepage */
