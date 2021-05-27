@@ -90,6 +90,11 @@
     font-size: 30px;
   }
 
+  #checkout {
+    text-decoration: underline #ff9649;
+    color: #ff9649;
+  }
+
   #add-to-cart:checked ~ .cart {
     opacity: 1;
     clip-path: circle(100% at center);
@@ -244,6 +249,10 @@
   .cart a {
     position: relative;
     top: 500px;
+  }
+
+  #checkout {
+    text-decoration: underline #ff9649;
   }
 
   .cart a:hover {
