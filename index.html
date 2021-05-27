@@ -1,10 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>My first website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="New and used games, the universe of gaming just a click away"
+    />
+    <title>Gamehub | Homepage</title>
+    <link rel="stylesheet" href="styles/styles.css" />
   </head>
   <body>
-    <h1>Hello world!</h1>
-    <p>Welcome to my first website.</p>
+    <header class="main-header">
+      <div class="logo">
+        <a href="#"
+          ><img src="images/Game Hub Logo Orange@2x.png" alt="gamehub logo"
+        /></a>
+      </div>
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="menu-icon__line"></span>
+      </label>
+      <ul class="nav-links">
+        <li class="nav-link"><a href="#">Home</a></li>
+        <li class="nav-link"><a href="#">Games</a></li>
+        <li class="nav-link"><a href="#">Contact</a></li>
+        <li class="nav-link"><a href="#">Login</a></li>
+      </ul>
+    </header>
+    <main>
+      <section class="header-img">
+        <h1 class="hero-text">Fakestation 6 is finally here</h1>
+        <a href="#"
+          ><img
+            src="images/fakestation6.jpg"
+            alt="picture of fakestation6"
+            class="header-img__img"
+        /></a>
+      </section>
+      <section class="upcoming-releases">
+        <div class="flex-container__releases">
+          <h2 class="upcoming-releases__title">Upcoming Releases</h2>
+          <a href="#">More...</a>
+        </div>
+        <div class="flex-container__products">
+          <div class="product">
+            <a href="#"
+              ><img src="images/product-image.jpg" alt="Bloodborne"
+            /></a>
+            <h3>Bloodborne</h3>
+            <p>New: 60$ | Used: 37$</p>
+          </div>
+          <div class="product">
+            <a href="#"
+              ><img src="images/product-image.jpg" alt="Bloodborne"
+            /></a>
+            <h3>Bloodborne</h3>
+            <p>New: 60$ | Used: 37$</p>
+          </div>
+          <div class="product">
+            <a href="#"
+              ><img src="images/product-image.jpg" alt="Bloodborne"
+            /></a>
+            <h3>Bloodborne</h3>
+            <p>New: 60$ | Used: 37$</p>
+          </div>
+          <div class="product">
+            <a href="#"
+              ><img src="images/product-image.jpg" alt="Bloodborne"
+            /></a>
+            <h3>Bloodborne</h3>
+            <p>New: 60$ | Used: 37$</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
   </body>
 </html>
