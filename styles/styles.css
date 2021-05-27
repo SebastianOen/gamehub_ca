@@ -47,12 +47,9 @@
 
   #add-to-cart,
   .cart {
-    display: none;
+    opacity: 0;;
   }
 
-  label:hover {
-    cursor: pointer;
-  }
 
   .cart__img {
     height: 30px;
@@ -98,7 +95,7 @@
     opacity: 1;
     clip-path: circle(100% at center);
   }
-  
+
   footer {
     color: #fff;
     text-align: center;
