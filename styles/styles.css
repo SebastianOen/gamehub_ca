@@ -393,12 +393,14 @@
     color: #fff;
     text-decoration: none;
     border: 2px solid #fff;
+    border-radius: 10px;
   }
 
   .cta-register__btn:hover {
     color: #ff9649;
     border: 2px solid #ff9649;
     border-radius: 10px;
+    padding: 10px;
   }
 }
 
