@@ -6,6 +6,9 @@
 }
 
 @media screen and (max-width: 767px) {
+  main {
+    width: 100vw;
+  }
   .main-header {
   }
   .header-img__img {
