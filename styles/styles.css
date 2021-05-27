@@ -98,6 +98,26 @@
     object-fit: cover;
     object-position: bottom;
   }
+  .cta-register {
+    position: absolute;
+    top: 720px;
+    left: 60px;
+    font-size: 13px;
+    text-align: center;
+    background-color: #262626;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+  .cta-register__btn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    top: 5px;
+    border: 2px solid #ff9649;
+    border-radius: 5px;
+  }
 }
 /* PC, Pad View */
 @media screen and (min-width: 767px) {
