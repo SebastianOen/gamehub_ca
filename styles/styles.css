@@ -47,7 +47,6 @@
   .flex-container__products {
     display: flex;
     justify-content: space-evenly;
-    width: 380px;
     margin: auto;
     position: relative;
     top: 200px;
@@ -61,8 +60,6 @@
     top: 190px;
   }
   .product {
-    border: 1px solid grey;
-    padding-top: 2px;
   }
   .product h3 {
     display: none;
