@@ -4,25 +4,24 @@
   padding: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 /* Mobile view */
+
 @media screen and (max-width: 767px) {
   main {
     width: 100vw;
   }
+
   .main-header {
   }
-  .header-img__img {
-    height: 220px;
-    width: 350px;
-    margin-top: 20px;
-  }
-
+  /* Global */
   .logo {
     position: relative;
     left: 70px;
     padding-top: 20px;
     z-index: 2;
   }
+
   .nav-links {
     position: absolute;
     top: 0;
@@ -40,10 +39,25 @@
     transition: opacity 0.8s 0.5s, clip-path 1s 0.5s;
     clip-path: circle(200px at top right);
   }
+
   .menu-btn:checked ~ .nav-links {
     opacity: 1;
     clip-path: circle(100% at center);
   }
+
+  footer {
+    color: #fff;
+    text-align: center;
+  }
+
+  /* Homepage */
+
+  .header-img__img {
+    height: 220px;
+    width: 350px;
+    margin-top: 20px;
+  }
+
   .flex-container__products {
     display: flex;
     justify-content: space-evenly;
@@ -52,6 +66,7 @@
     top: 200px;
     text-transform: uppercase;
   }
+
   .flex-container__releases {
     display: flex;
     justify-content: space-between;
@@ -60,11 +75,11 @@
     top: 190px;
     text-transform: uppercase;
   }
-  .product {
-  }
+
   .product h3 {
     display: none;
   }
+
   .product p {
     font-size: 15px;
   }
@@ -74,6 +89,7 @@
     position: relative;
     left: 5px;
   }
+
   .game-news h2 {
     position: absolute;
     top: 680px;
@@ -85,19 +101,23 @@
     text-align: center;
     text-decoration: underline #ff9649;
   }
+
   .game-news__story {
     display: none;
   }
+
   .advert {
     position: absolute;
     top: 800px;
   }
+
   .advert img {
     width: 100vw;
     max-height: 150px;
     object-fit: cover;
     object-position: bottom;
   }
+
   .cta-register {
     position: absolute;
     top: 720px;
@@ -109,6 +129,7 @@
     text-transform: uppercase;
     padding: 10px 30px;
   }
+
   .cta-register__btn {
     color: #fff;
     text-decoration: none;
@@ -125,18 +146,27 @@
   .menu-icon {
     display: none;
   }
+
   .main-header {
     height: 65px;
   }
+
   .nav-links {
     position: relative;
     top: 30px;
   }
+
   .nav-link {
     margin-left: 60px;
   }
 
+  footer {
+    color: #fff;
+    text-align: center;
+  }
+
   /* Home page */
+
   .header-img {
     position: relative;
     top: 150px;
@@ -148,6 +178,7 @@
     height: 400px;
     width: 700px;
   }
+
   .flex-container__releases {
     position: relative;
     top: 170px;
@@ -158,12 +189,15 @@
     text-transform: uppercase;
     align-items: center;
   }
+
   .flex-container__releases a {
     color: #262626;
   }
+
   .flex-container__releases a:hover {
     color: #ff9649;
   }
+
   .flex-container__products {
     display: flex;
     margin: auto;
@@ -173,6 +207,7 @@
     position: relative;
     top: 180px;
   }
+
   .product {
     text-align: center;
     text-transform: uppercase;
@@ -187,40 +222,49 @@
     font-weight: bold;
     margin-top: 10px;
   }
+
   .product img {
     height: 150px;
   }
+
   .game-news {
     position: absolute;
     top: 150px;
     padding-left: 20px;
   }
+
   .game-news h2 {
     text-align: center;
     text-transform: uppercase;
     color: #262626;
     text-decoration: underline #ff9649;
   }
+
   .game-news h2:hover {
     color: #ff9649;
   }
+
   .game-news__story {
     margin-top: 40px;
     max-width: 330px;
   }
+
   .game-news__story img {
     height: 190px;
     width: 330px;
   }
+
   .advert {
     position: absolute;
     left: 1150px;
     top: 180px;
   }
+
   .advert img {
     width: 350px;
     height: 700px;
   }
+
   .cta-register {
     position: absolute;
     top: 930px;
@@ -232,11 +276,13 @@
     text-transform: uppercase;
     color: #fff;
   }
+
   .cta-register h2 {
     position: relative;
     bottom: 20px;
     font-size: 30px;
   }
+
   .cta-register__btn {
     position: relative;
     top: 10px;
@@ -244,6 +290,7 @@
     color: #fff;
     text-decoration: none;
   }
+
   .cta-register__btn:hover {
     color: #ff9649;
     border: 2px solid #ff9649;
@@ -263,6 +310,7 @@
   z-index: 1;
   background-color: #262626;
 }
+
 .main-header a {
   text-decoration: none;
   color: #fff;
@@ -278,6 +326,7 @@
   margin: 70px;
   font-size: 20px;
 }
+
 .nav-link a:hover {
   color: #ff9649;
 }
@@ -290,6 +339,7 @@
   cursor: pointer;
   z-index: 1;
 }
+
 .menu-icon__line {
   display: block;
   position: relative;
@@ -298,6 +348,7 @@
   width: 20px;
   border-radius: 4px;
 }
+
 .menu-icon__line::before,
 .menu-icon__line::after {
   content: "";
@@ -311,6 +362,7 @@
 .menu-icon__line::before {
   transform: translateY(-5px);
 }
+
 .menu-icon__line::after {
   transform: translateY(5px);
 }
@@ -330,6 +382,7 @@
   font-size: 15px;
   text-transform: uppercase;
 }
+
 footer {
   background: #262626;
   height: 80px;
