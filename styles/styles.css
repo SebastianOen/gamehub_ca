@@ -91,7 +91,6 @@
   .advert {
     position: absolute;
     top: 800px;
-    left: 10px;
   }
   .advert img {
     width: 350px;
@@ -102,6 +101,7 @@
 }
 /* PC, Pad View */
 @media screen and (min-width: 767px) {
+  /* Global */
   .menu-icon {
     display: none;
   }
@@ -115,12 +115,15 @@
   .nav-link {
     margin-left: 60px;
   }
+
+  /* Home page */
   .header-img {
     position: relative;
     top: 150px;
     text-align: center;
     text-transform: uppercase;
   }
+
   .header-img__img {
     height: 400px;
     width: 700px;
@@ -197,6 +200,34 @@
   .advert img {
     width: 350px;
     height: 700px;
+  }
+  .cta-register {
+    position: absolute;
+    top: 930px;
+    left: 520px;
+    text-align: center;
+    background: #262626;
+    padding: 40px 70px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .cta-register h2 {
+    position: relative;
+    bottom: 20px;
+    font-size: 30px;
+  }
+  .cta-register__btn {
+    position: relative;
+    top: 10px;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+  }
+  .cta-register__btn:hover {
+    color: #ff9649;
+    border: 2px solid #ff9649;
+    border-radius: 10px;
   }
 }
 
