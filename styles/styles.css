@@ -93,7 +93,7 @@
     top: 800px;
   }
   .advert img {
-    max-width: 100%;
+    width: 100vw;
     max-height: 150px;
     object-fit: cover;
     object-position: bottom;
