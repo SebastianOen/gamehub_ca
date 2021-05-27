@@ -88,6 +88,17 @@
   .game-news__story {
     display: none;
   }
+  .advert {
+    position: absolute;
+    top: 800px;
+    left: 10px;
+  }
+  .advert img {
+    width: 350px;
+    max-height: 150px;
+    object-fit: cover;
+    object-position: bottom;
+  }
 }
 /* PC, Pad View */
 @media screen and (min-width: 767px) {
@@ -122,6 +133,13 @@
     max-width: 700px;
     justify-content: space-between;
     text-transform: uppercase;
+    align-items: center;
+  }
+  .flex-container__releases a {
+    color: #262626;
+  }
+  .flex-container__releases a:hover {
+    color: #ff9649;
   }
   .flex-container__products {
     display: flex;
@@ -157,6 +175,11 @@
   .game-news h2 {
     text-align: center;
     text-transform: uppercase;
+    color: #262626;
+    text-decoration: underline #ff9649;
+  }
+  .game-news h2:hover {
+    color: #ff9649;
   }
   .game-news__story {
     margin-top: 40px;
@@ -165,6 +188,15 @@
   .game-news__story img {
     height: 190px;
     width: 330px;
+  }
+  .advert {
+    position: absolute;
+    left: 1150px;
+    top: 180px;
+  }
+  .advert img {
+    width: 350px;
+    height: 700px;
   }
 }
 
