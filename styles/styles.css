@@ -45,6 +45,50 @@
     clip-path: circle(100% at center);
   }
 
+  #add-to-cart,
+  .cart {
+    display: none;
+  }
+
+  label:hover {
+    cursor: pointer;
+  }
+
+  .cart__img {
+    height: 30px;
+    position: absolute;
+    top: 70px;
+    left: 10px;
+  }
+
+  .cart {
+    background-color: #262626;
+    position: fixed;
+    top: 120px;
+    left: 1300px;
+    padding: 10px;
+    height: 700px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .cart p {
+    position: relative;
+    top: 200px;
+  }
+
+  .cart a {
+    position: relative;
+    top: 500px;
+  }
+
+  .cart a:hover {
+    color: #ff9649;
+  }
+
+  #add-to-cart:checked ~ .cart {
+    display: block;
+  }
   footer {
     color: #fff;
     text-align: center;
@@ -162,6 +206,51 @@
 
   .nav-link {
     margin-left: 60px;
+  }
+
+  .cart__img {
+    height: 30px;
+    position: absolute;
+    top: 70px;
+    left: 1450px;
+  }
+
+  #add-to-cart,
+  .cart {
+    display: none;
+  }
+
+  label:hover {
+    cursor: pointer;
+  }
+
+  .cart {
+    background-color: #262626;
+    position: fixed;
+    top: 120px;
+    left: 1300px;
+    padding: 10px;
+    height: 700px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .cart p {
+    position: relative;
+    top: 200px;
+  }
+
+  .cart a {
+    position: relative;
+    top: 500px;
+  }
+
+  .cart a:hover {
+    color: #ff9649;
+  }
+
+  #add-to-cart:checked ~ .cart {
+    display: block;
   }
 
   footer {
