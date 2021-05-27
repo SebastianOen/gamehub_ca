@@ -392,6 +392,7 @@
     font-size: 30px;
     color: #fff;
     text-decoration: none;
+    border: 2px solid #fff;
   }
 
   .cta-register__btn:hover {
