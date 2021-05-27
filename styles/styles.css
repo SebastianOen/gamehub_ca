@@ -76,8 +76,7 @@
   }
 
   #add-to-cart:checked ~ .cart {
-    opacity: 1;
-    clip-path: circle(100% at center);
+    display: block;
   }
 
   /* Homepage */
