@@ -214,12 +214,13 @@
   }
 
   .genre-list a {
+    position: relative;
+    top: 5px;
     color: #ff9649;
     text-decoration: none;
     background-color: #262626;
     padding: 5px;
     margin: 5px;
-    text-align: center;
   }
 
   .product__list {
