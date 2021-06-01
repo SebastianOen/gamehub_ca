@@ -193,6 +193,50 @@
     border: 2px solid #ff9649;
     border-radius: 5px;
   }
+
+  /* Gamepage */
+
+  .genre-title {
+    position: relative;
+    top: 120px;
+    color: #262626;
+    left: 80px;
+    text-transform: uppercase;
+  }
+
+  .genre-list {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    top: 150px;
+    max-width: 400px;
+    font-size: 15px;
+  }
+
+  .genre-list a {
+    color: #ff9649;
+    text-decoration: none;
+    background-color: #262626;
+    padding: 5px;
+  }
+
+  .product__list {
+    position: relative;
+    left: 80px;
+    top: 160px;
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    max-height: auto;
+    text-align: center;
+  }
+  .game img {
+    max-width: 150px;
+    margin: 10px 0;
+  }
+  .game {
+    margin: 10px 0;
+  }
 }
 /* PC, Pad View */
 @media screen and (min-width: 767px) {
