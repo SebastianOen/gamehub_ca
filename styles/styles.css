@@ -197,10 +197,11 @@
   /* Gamepage */
 
   .genre-title {
-    position: relative;
+    position: absolute;
     top: 120px;
+    left: 100px;
     color: #262626;
-    left: 80px;
+    margin: auto;
     text-transform: uppercase;
   }
 
@@ -208,7 +209,7 @@
     position: relative;
     display: flex;
     justify-content: space-evenly;
-    top: 150px;
+    top: 160px;
     max-width: 400px;
     font-size: 15px;
   }
