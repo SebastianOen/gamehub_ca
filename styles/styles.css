@@ -201,7 +201,6 @@
     top: 120px;
     left: 100px;
     color: #262626;
-    margin: auto;
     text-transform: uppercase;
   }
 
@@ -218,7 +217,7 @@
     color: #ff9649;
     text-decoration: none;
     background-color: #262626;
-    padding: 3px;
+    padding: 5px;
     margin: 5px;
   }
 
