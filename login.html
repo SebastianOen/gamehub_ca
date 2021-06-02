@@ -39,7 +39,66 @@
         <a href="checkout.html" id="checkout">Proceed to checkout</a>
       </section>
     </header>
-    <main></main>
+    <main>
+      <form action="#" method="GET">
+        <fieldset class="login__window">
+          <legend class="login__title">Members</legend>
+          <label for="email" class="login__email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="login__email__box"
+            required
+          />
+          <label for="password" class="login__password">Password:</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="login__password__box"
+            required
+          />
+          <input type="submit" value="Login" class="cta-login" />
+          <div class="register__now">
+            <p>Not a member yet?</p>
+            <a href="#">Register now</a>
+          </div>
+        </fieldset>
+      </form>
+      <section class="game-news">
+        <a href="#"><h2 class="game-news__title">Game news</h2></a>
+        <div class="game-news__story">
+          <h3>Fakestation's controllers drift?</h3>
+          <a href="#"
+            ><img
+              src="images/controller_img.png"
+              alt="Fakestation controller image, drift issues"
+          /></a>
+        </div>
+        <div class="game-news__story">
+          <h3>How I started with E-Sports</h3>
+          <a href="#"
+            ><img
+              src="images/progamer_img.png"
+              alt="Photo of Thom Thompson playing in E-Sports tournament"
+          /></a>
+        </div>
+        <div class="game-news__story">
+          <h3>Longer battery life if you remember to...</h3>
+          <a href="#"
+            ><img
+              src="images/controller2_img.png"
+              alt="Fakestation controller laying on a table"
+          /></a>
+        </div>
+      </section>
+      <section class="advert">
+        <a href="#"
+          ><img src="images/sekiro_advert.png" alt="Advert for Sekiro Ps4"
+        /></a>
+      </section>
+    </main>
     <footer>Copyright &copy;</footer>
   </body>
 </html>

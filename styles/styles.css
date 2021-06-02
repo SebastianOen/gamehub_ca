@@ -596,6 +596,118 @@
     top: 100px;
     left: 250px;
   }
+
+  /* Login */
+
+  .login__window {
+    position: relative;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    max-width: 500px;
+    margin: auto;
+    background: #262626;
+    border: none;
+    text-decoration: underline #ff9649;
+  }
+
+  .login__title {
+    position: relative;
+    top: 40px;
+    font-size: 35px;
+    color: #ff9649;
+    text-transform: uppercase;
+    margin: auto;
+  }
+
+  .login__password {
+    position: relative;
+    top: 110px;
+    left: 20px;
+    width: 350px;
+    color: #ff9649;
+    text-decoration: underline #ff9649;
+    text-transform: uppercase;
+  }
+
+  .login__password__box {
+    position: relative;
+    top: 120px;
+    left: 70px;
+    width: 350px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    height: 40px;
+  }
+
+  .login__email__box {
+    position: relative;
+    top: 60px;
+    left: 70px;
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+  }
+  .login__email {
+    position: relative;
+    top: 60px;
+    left: 20px;
+    height: 30px;
+    width: 350px;
+    color: #ff9649;
+    text-decoration: underline #ff9649;
+    text-transform: uppercase;
+  }
+  .cta-login {
+    position: relative;
+    top: 170px;
+    margin: 0 auto;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+    background: #ff9649;
+    color: #262626;
+    text-decoration: none;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+
+  .cta-login:hover {
+    border: 3px solid #ff9649;
+    background: #262626;
+    color: #ff9649;
+  }
+
+  .register__now {
+    position: relative;
+    top: 230px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #ff9649;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .register__now a {
+    position: relative;
+    top: 30px;
+    background: #ff9649;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #262626;
+  }
+
+  .register__now a:hover {
+    border: 3px solid #ff9649;
+    background: #262626;
+    color: #ff9649;
+  }
 }
 
 /* Header and navigation */
