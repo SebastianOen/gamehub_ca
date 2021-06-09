@@ -361,6 +361,52 @@
     padding: 0 10px;
     background-color: #262626;
   }
+
+  /* Account */
+
+  .user-info {
+    position: relative;
+    height: 200px;
+    justify-content: space-between;
+    top: 200px;
+    left: 60px;
+  }
+
+  .lvl-txt {
+    margin-top: 50px;
+  }
+
+  .lvl-bar {
+    height: 50px;
+    width: 200px;
+    background-color: #90ee90;
+    border: 2px solid #262626;
+  }
+
+  .cta-account {
+    position: relative;
+    top: 30px;
+  }
+
+  .cta-account a {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+    text-decoration: none;
+    background-color: #262626;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .cta-account a:hover {
+    background-color: #fff;
+    border: 3px solid #ff9649;
+    color: #262626;
+  }
 }
 /* PC, Pad View */
 @media screen and (min-width: 767px) {
