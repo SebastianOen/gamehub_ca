@@ -308,7 +308,7 @@
   .login__email__box {
     position: relative;
     top: 30px;
-    left: 18%;
+    margin: 0 auto;
     color: #fff;
   }
 
@@ -321,7 +321,7 @@
   .login__password__box {
     position: relative;
     top: 50px;
-    left: 18%;
+    margin: 0 auto;
     color: #fff;
   }
 
