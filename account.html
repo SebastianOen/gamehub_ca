@@ -13,7 +13,7 @@
   <body>
     <header class="main-header">
       <div class="logo">
-        <a href="#"
+        <a href="index.html"
           ><img src="images/Game Hub Logo Orange@2x.png" alt="gamehub logo"
         /></a>
       </div>
@@ -23,11 +23,11 @@
       </label>
       <ul class="nav-links">
         <li class="nav-link"><a href="index.html">Home</a></li>
-        <li class="nav-link"><a href="games.html">Games</a></li>
-        <li class="nav-link"><a href="contact.html">Contact</a></li>
         <li class="nav-link">
-          <a href="login.html" id="active__site">Login</a>
+          <a href="games.html" id="active__site">Games</a>
         </li>
+        <li class="nav-link"><a href="contact.html">Contact</a></li>
+        <li class="nav-link"><a href="login.html">Login</a></li>
       </ul>
       <input type="checkbox" class="add-to-cart" id="add-to-cart" />
       <label for="add-to-cart"
@@ -40,32 +40,22 @@
       </section>
     </header>
     <main>
-      <form action="#" method="GET">
-        <fieldset class="login__window">
-          <legend class="login__title">Members</legend>
-          <label for="email" class="login__email">Email:</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            class="login__email__box"
-            required
-          />
-          <label for="password" class="login__password">Password:</label>
-          <input
-            type="password"
-            name="password"
-            id="password"
-            class="login__password__box"
-            required
-          />
-          <a href="account.html" class="cta-login">Login</a>
-          <div class="register__now">
-            <p>Not a member yet?</p>
-            <a href="#">Register now</a>
-          </div>
-        </fieldset>
-      </form>
+      <h1 class="user-welcome">Hello, SirGamesAlot</h1>
+      <section class="user-info">
+        <h2>Username:</h2>
+        <p>SirGamesAlot</p>
+        <h2>Gamehub dollars:</h2>
+        <p>42$</p>
+        <div class="lvl-txt">
+          <h2>Gamehub lvl:</h2>
+          <p>23</p>
+        </div>
+        <div class="lvl-bar"></div>
+        <div class="cta-account">
+          <a href="./games.html">Browse Games</a>
+          <a href="#">Sell Games</a>
+        </div>
+      </section>
       <section class="game-news">
         <a href="#"><h2 class="game-news__title">Game news</h2></a>
         <div class="game-news__story">
@@ -99,6 +89,6 @@
         /></a>
       </section>
     </main>
-    <footer>Copyright &copy;</footer>
+    <footer class="account-footer">Copyright &copy;</footer>
   </body>
 </html>

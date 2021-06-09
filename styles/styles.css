@@ -300,8 +300,9 @@
     top: 15px;
     margin: auto;
     color: #fff;
+    font-size: 25px;
     text-transform: uppercase;
-    border: 2px, 0px #ff9649;
+    text-decoration: underline #ff9649;
   }
 
   .login__email,
@@ -309,7 +310,7 @@
     position: relative;
     top: 30px;
     margin: 0 auto;
-    color: #fff;
+    color: #ff9649;
   }
 
   .login__email__box {
@@ -322,7 +323,7 @@
     position: relative;
     top: 50px;
     margin: 0 auto;
-    color: #fff;
+    color: #ff9649;
   }
 
   .login__password__box {
@@ -793,6 +794,48 @@
     background: #262626;
     color: #ff9649;
   }
+
+  /* Account page */
+
+  .user-info {
+    position: relative;
+    height: 200px;
+    justify-content: space-between;
+    top: 200px;
+    left: 400px;
+  }
+
+  .lvl-txt {
+    margin-top: 50px;
+  }
+
+  .lvl-bar {
+    height: 50px;
+    width: 400px;
+    background-color: #90ee90;
+    border: 2px solid #262626;
+  }
+
+  .cta-account {
+    position: relative;
+    top: 100px;
+  }
+
+  .cta-account a {
+    margin: 0 50px;
+    text-decoration: none;
+    background-color: #262626;
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 10px;
+  }
+
+  .cta-account a:hover {
+    background-color: #fff;
+    border: 3px solid #ff9649;
+    color: #262626;
+  }
 }
 
 /* Header and navigation */
@@ -889,4 +932,9 @@ footer {
   height: 80px;
   position: relative;
   top: 500px;
+}
+
+.account-footer {
+  position: relative;
+  top: 800px;
 }
