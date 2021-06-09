@@ -194,6 +194,11 @@
     border-radius: 5px;
   }
 
+  .cta-register h2 {
+    color: #fff;
+    text-decoration: underline #ff9649;
+  }
+
   /* Gamepage */
 
   .genre-title {
@@ -276,6 +281,84 @@
     position: absolute;
     top: 100px;
     left: 250px;
+  }
+
+  /* Login-page */
+
+  .login__window {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+    height: 350px;
+    background-color: #262626;
+    border: none;
+  }
+
+  .login__title {
+    position: relative;
+    top: 15px;
+    margin: auto;
+    color: #fff;
+    text-transform: uppercase;
+    border: 2px, 0px #ff9649;
+  }
+
+  .login__email,
+  .login__email__box {
+    position: relative;
+    top: 30px;
+    left: 18%;
+    color: #fff;
+  }
+
+  .login__email__box {
+    height: 30px;
+    width: 300px;
+  }
+
+  .login__password,
+  .login__password__box {
+    position: relative;
+    top: 50px;
+    left: 18%;
+    color: #fff;
+  }
+
+  .login__password__box {
+    height: 30px;
+    width: 300px;
+  }
+
+  .cta-login {
+    position: relative;
+    top: 70px;
+    margin: 0 auto;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 3px solid #ff9649;
+    border-radius: 5px;
+    padding: 10px 30px;
+  }
+
+  .register__now {
+    position: relative;
+    top: 90px;
+    margin: 0 auto;
+    background-color: #ff9649;
+    padding: 10px 30px;
+    text-align: center;
+  }
+
+  .register__now a {
+    position: relative;
+    top: 5px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0 10px;
+    background-color: #262626;
   }
 }
 /* PC, Pad View */
@@ -482,6 +565,8 @@
     position: relative;
     bottom: 20px;
     font-size: 30px;
+    color: #fff;
+    text-decoration: underline #ff9649;
   }
 
   .cta-register__btn {
