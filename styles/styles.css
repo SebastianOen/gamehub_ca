@@ -679,7 +679,7 @@
 
   #add-to-cart,
   .cart {
-    display: none;
+    opacity: 0;
   }
 
   label:hover {
@@ -695,6 +695,7 @@
     height: 700px;
     text-align: center;
     text-transform: uppercase;
+    transition: opacity 0.4s;
   }
 
   .cart p {
@@ -704,7 +705,7 @@
 
   .cart a {
     position: relative;
-    top: 500px;
+    top: 400px;
   }
 
   #checkout {
@@ -716,7 +717,7 @@
   }
 
   #add-to-cart:checked ~ .cart {
-    display: block;
+    opacity: 1;
   }
 
   footer {
@@ -1204,7 +1205,7 @@
   }
 
   .added {
-    display: none;
+    opacity: 0;
     position: fixed;
     top: 150px;
     left: 1200px;
@@ -1212,6 +1213,7 @@
     color: #fff;
     height: 100px;
     width: 300px;
+    transition: opacity 0.4s;
   }
   .added p {
     position: relative;
@@ -1243,7 +1245,7 @@
   }
 
   #add2cart:checked ~ .added {
-    display: block;
+    opacity: 1;
   }
 
   /* Sold item */
