@@ -453,6 +453,128 @@
     padding: 15px 40px;
     border-radius: 10px;
   }
+
+  
+  .game-information {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 200px;
+    left: 300px;
+    width: 500px;
+    height: 600px;
+    justify-content: space-evenly;
+  }
+
+  .game-information h1 {
+    font-size: 35px;
+    text-transform: uppercase;
+    text-decoration: underline #ff9649;
+  }
+
+  .info-bar {
+    height: 30px;
+    font-size: 25px;
+    padding: 0 20px;
+    border-radius: 10px;
+  }
+
+  .highlight {
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .state-label {
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+  }
+
+  .cta-submit {
+    margin: 30px auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #262626;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 10px;
+  }
+
+  .cta-submit:hover {
+    background-color: #fff;
+    border: 3px solid #ff9649;
+    color: #262626;
+  }
+
+  .product-game {
+    position: relative;
+    top: 200px;
+    left: 200px;
+  }
+
+  .product-info h1 {
+    margin: 20px;
+    text-transform: uppercase;
+    text-decoration: underline #ff9649;
+  }
+
+  .product-img {
+    position: relative;
+    margin: 20px auto;
+  }
+
+  .product-info {
+    width: 300px;
+    position: relative;
+    left: 50px;
+    top: 200px;
+  }
+
+  .added {
+    display: none;
+    position: fixed;
+    top: 150px;
+    left: 1200px;
+    background: #262626;
+    color: #fff;
+    height: 100px;
+    width: 300px;
+  }
+  .added p {
+    position: relative;
+    top: 40px;
+    left: 40px;
+  }
+
+  .flex-cta {
+    position: relative;
+    top: 30px;
+  }
+
+  .add2cart-style {
+    position: relative;
+    top: 10px;
+    margin: 30px auto;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: #262626;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 10px;
+    display: flex;
+  }
+
+  #add2cart {
+    display: none;
+  }
+
+  #add2cart:checked ~ .added {
+    display: block;
+  }
+}
 }
 /* PC, Pad View */
 @media screen and (min-width: 767px) {
