@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="New and used games, the universe of gaming just a click away"
+    />
+    <title>Gamehub | Homepage</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="logo">
+        <a href="#"
+          ><img src="images/Game Hub Logo Orange@2x.png" alt="gamehub logo"
+        /></a>
+      </div>
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="menu-icon__line"></span>
+      </label>
+      <ul class="nav-links">
+        <li class="nav-link"><a href="index.html">Home</a></li>
+        <li class="nav-link"><a href="games.html">Games</a></li>
+        <li class="nav-link">
+          <a href="contact.html" id="active__site">Contact</a>
+        </li>
+        <li class="nav-link"><a href="login.html">Login</a></li>
+      </ul>
+      <input type="checkbox" class="add-to-cart" id="add-to-cart" />
+      <label for="add-to-cart"
+        ><img src="images/cart_img.png" alt="shopping cart" class="cart__img"
+      /></label>
+      <section class="cart">
+        <h3>Your shopping cart</h3>
+        <p>Empty</p>
+        <a href="checkout.html" id="checkout">Proceed to checkout</a>
+      </section>
+    </header>
+    <main>
+      <section class="game-information">
+        <h1>Sell your game</h1>
+        <label for="game-name" class="highlight"
+          >What game would you like to sell?</label
+        >
+        <input type="text" name="game-name" id="game-name" class="info-bar" />
+        <label for="game-state" class="highlight"
+          >What state is the game in?</label
+        >
+        <div class="state-label">
+          <div class="state1">
+            <label for="state1">Used</label>
+            <input type="radio" name="state" id="state1" />
+          </div>
+          <div class="state2">
+            <label for="state2">Barely Used</label>
+            <input type="radio" name="state" id="state2" />
+          </div>
+          <div class="state3">
+            <label for="state3" class="state-active-3">New</label>
+            <input type="radio" name="state" id="state3" />
+          </div>
+        </div>
+        <label for="when-txt" class="highlight"
+          >When did you buy the game? (optional)</label
+        >
+        <input type="text" class="info-bar" />
+        <label for="why-txt" class="highlight"
+          >Why are you selling the game? (optional)</label
+        >
+        <input type="text" class="info-bar" />
+        <a href="./thank-you.html" class="cta-submit">Submit</a>
+      </section>
+      <section class="advert">
+        <a href="#"
+          ><img src="images/sekiro_advert.png" alt="Advert for Sekiro Ps4"
+        /></a>
+      </section>
+    </main>
+    <footer>Copyright &copy;</footer>
+  </body>
+</html>
