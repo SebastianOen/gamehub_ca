@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Thank you for selling your game!" />
-    <title>Gamehub | Sold</title>
+    <meta
+      name="description"
+      content="Login to your account to get rewards through selling games on Gamehub"
+    />
+    <title>Gamehub | Login</title>
     <link rel="stylesheet" href="styles/styles.css" />
     <!-- Hotjar Tracking Code for My site -->
     <script>
@@ -37,10 +40,10 @@
       <ul class="nav-links">
         <li class="nav-link"><a href="index.html">Home</a></li>
         <li class="nav-link"><a href="games.html">Games</a></li>
+        <li class="nav-link"><a href="contact.html">Contact</a></li>
         <li class="nav-link">
-          <a href="contact.html" id="active__site">Contact</a>
+          <a href="login.html" id="active__site">Login</a>
         </li>
-        <li class="nav-link"><a href="login.html">Login</a></li>
       </ul>
       <input type="checkbox" class="add-to-cart" id="add-to-cart" />
       <label for="add-to-cart"
@@ -53,27 +56,33 @@
       </section>
     </header>
     <main>
-      <section class="thank-you-for-selling">
-        <h1>Thanks for your game!</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
-          officiis? Repellat natus aliquam voluptatem quidem dolore quae
-          sapiente voluptate aut exercitationem porro eveniet veniam, aliquid
-          est excepturi quam numquam magnam totam eos eius illo dolorem vel
-          perspiciatis laborum delectus. Quos dignissimos sed ullam dolorem
-          deserunt magnam dolorum laborum voluptatibus debitis!
-        </p>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae
-          possimus ipsam assumenda eveniet consequuntur iusto voluptate corporis
-          est ullam nulla.
-        </p>
+      <form action="#" method="GET">
+        <fieldset class="login__window">
+          <legend class="login__title">Members</legend>
 
-        <div class="cta-account">
-          <a href="./games.html">Browse Games</a>
-          <a href="./sellgames-forum.html">Sell Games</a>
-        </div>
-      </section>
+          <label for="email" class="login__email">Email:</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="login__email__box"
+            required
+          />
+          <label for="password" class="login__password">Password:</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="login__password__box"
+            required
+          />
+          <a href="account.html" class="cta-login">Login</a>
+          <div class="register__now">
+            <p>Not a member yet?</p>
+            <a href="register.html">Register now</a>
+          </div>
+        </fieldset>
+      </form>
     </main>
     <footer>Copyright &copy;</footer>
   </body>

@@ -142,34 +142,6 @@
     left: 5px;
   }
 
-  .game-news h2 {
-    position: absolute;
-    top: 660px;
-    left: 50px;
-    color: #262626;
-    text-transform: uppercase;
-    width: 250px;
-    height: 40px;
-    text-align: center;
-    text-decoration: underline #ff9649;
-  }
-
-  .game-news__story {
-    display: none;
-  }
-
-  .advert {
-    position: absolute;
-    top: 800px;
-  }
-
-  .advert img {
-    width: 100vw;
-    max-height: 150px;
-    object-fit: cover;
-    object-position: bottom;
-  }
-
   .cta-register {
     position: absolute;
     top: 720px;
@@ -1087,11 +1059,14 @@
   /* Account page */
 
   .user-info {
+    display: flex;
+    flex-direction: column;
     position: relative;
-    height: 200px;
+    height: 500px;
     justify-content: space-between;
+    align-items: center;
     top: 200px;
-    left: 400px;
+    text-align: center;
   }
 
   .lvl-txt {
@@ -1099,10 +1074,13 @@
   }
 
   .lvl-bar {
+    position: relative;
     height: 50px;
-    width: 400px;
+    max-width: 400px;
+    width: 100%;
     background-color: #90ee90;
     border: 2px solid #262626;
+    border-radius: 20px;
   }
 
   .cta-account {
@@ -1411,4 +1389,13 @@ footer {
 .account-footer {
   position: relative;
   top: 800px;
+}
+
+/* Register */
+
+.register-complete {
+  position: relative;
+  top: 200px;
+  align-items: center;
+  text-align: center;
 }
