@@ -218,17 +218,13 @@
 
   .content-container {
     position: relative;
-    top: 80px;
+    top: 150px;
+    margin: auto;
   }
 
   .content-result img {
     max-width: 150px;
     margin: 10px 0;
-  }
-
-  .content-result {
-    margin: auto;
-    max-width: 200px;
   }
 
   /* Contact us */
