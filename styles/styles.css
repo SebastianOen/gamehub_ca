@@ -216,6 +216,11 @@
     margin: 10px 0;
   }
 
+  .content-result img {
+    max-width: 150px;
+    margin: 10px 0;
+  }
+
   /* Contact us */
 
   .contact-us {
@@ -771,44 +776,6 @@
 
   .product img {
     height: 150px;
-  }
-
-  .game-news {
-    position: absolute;
-    top: 150px;
-    padding-left: 20px;
-  }
-
-  .game-news h2 {
-    text-align: center;
-    text-transform: uppercase;
-    color: #262626;
-    text-decoration: underline #ff9649;
-  }
-
-  .game-news h2:hover {
-    color: #ff9649;
-  }
-
-  .game-news__story {
-    margin-top: 40px;
-    max-width: 330px;
-  }
-
-  .game-news__story img {
-    height: 190px;
-    width: 330px;
-  }
-
-  .advert {
-    position: absolute;
-    left: 1150px;
-    top: 180px;
-  }
-
-  .advert img {
-    width: 350px;
-    height: 700px;
   }
 
   .cta-register {
