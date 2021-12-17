@@ -222,6 +222,10 @@
     left: 40px;
   }
 
+  .content-title {
+    max-width: 200px;
+  }
+
   .content-result img {
     max-width: 150px;
     margin: 10px 0;
