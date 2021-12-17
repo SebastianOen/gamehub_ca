@@ -221,6 +221,11 @@
     margin: 10px 0;
   }
 
+  .content-result {
+    margin: auto;
+    max-width: 200px;
+  }
+
   /* Contact us */
 
   .contact-us {
