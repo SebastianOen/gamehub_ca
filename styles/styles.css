@@ -216,6 +216,11 @@
     margin: 10px 0;
   }
 
+  .content-container {
+    position: relative;
+    top: 80px;
+  }
+
   .content-result img {
     max-width: 150px;
     margin: 10px 0;
