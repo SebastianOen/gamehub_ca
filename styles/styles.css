@@ -218,8 +218,8 @@
 
   .content-container {
     position: relative;
-    top: 150px;
-    margin: auto;
+    top: 200px;
+    left: 40px;
   }
 
   .content-result img {
