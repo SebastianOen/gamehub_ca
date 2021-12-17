@@ -1399,3 +1399,81 @@ footer {
   align-items: center;
   text-align: center;
 }
+
+.register {
+  position: relative;
+  top: 200px;
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  max-width: 500px;
+  margin: auto;
+  background: #262626;
+  border: none;
+  text-decoration: underline #ff9649;
+}
+
+.form-error {
+  display: none;
+}
+
+.register-password {
+  position: relative;
+  left: 20px;
+  width: 350px;
+  color: #ff9649;
+  text-decoration: underline #ff9649;
+  text-transform: uppercase;
+}
+
+.register-email {
+  position: relative;
+  top: -100px;
+  left: 20px;
+  height: 30px;
+  width: 350px;
+  color: #ff9649;
+  text-decoration: underline #ff9649;
+  text-transform: uppercase;
+}
+
+.register-title {
+  position: relative;
+  top: -150px;
+  margin: auto;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: #ff9649;
+}
+
+.register-password__box {
+  width: 350px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  margin-top: 20px;
+}
+
+.register-email__box {
+  position: relative;
+  top: 60px;
+  left: -110px;
+  width: 350px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  height: 40px;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.form-error {
+  color: red;
+}
+
+.validation {
+  color: green;
+  font-size: 30px;
+  margin: auto;
+}
